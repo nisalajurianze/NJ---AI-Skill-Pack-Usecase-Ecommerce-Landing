@@ -22,6 +22,13 @@ The landing page loaded successfully on a local web server, featuring smooth vis
 
 ---
 
+### Product Ecosystem
+The product grid displays the structured cards, visual AI assets, and individual checkout triggers:
+
+![Product Ecosystem](./screenshot-ecosystem.png)
+
+---
+
 ### Interactive Shopping Cart
 Added a product to the cart and opened the cart drawer to verify quantity controls, state updates, and checkout triggers:
 
