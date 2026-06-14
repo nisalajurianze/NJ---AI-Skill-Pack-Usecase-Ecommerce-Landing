@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover Veloce Tech — the next generation of premium, high-performance wearables. Engineered with precision carbon, titanium, and ambient neon interfaces. Shop the collection today.">
+  <title>Veloce Tech | Premium Audio & Wearable Collection</title>
+  <!-- Google Fonts: Outfit (headings) & Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Mesh Gradient Backgrounds -->
+  <div class="mesh-gradient-bg"></div>
+
+  <!-- Interactive Spotlight Grid Overlay -->
+  <div class="spotlight-grid" id="main-spotlight-grid">
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Glassmorphic Header / Navigation -->
+  <header class="navbar" id="main-navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo" id="nav-logo-link">
+        <span class="logo-accent">V</span>ELOCE
+      </a>
+      
+      <nav class="nav-menu" id="nav-menu-desktop">
+        <a href="#products" class="nav-link" id="nav-link-products">Products</a>
+        <a href="#features" class="nav-link" id="nav-link-features">Features</a>
+        <a href="#about" class="nav-link" id="nav-link-about">About</a>
+        <a href="#faq" class="nav-link" id="nav-link-faq">FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="cart-btn" id="cart-toggle-btn" aria-label="Open shopping cart">
+          <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-count" id="cart-badge-count">0</span>
+        </button>
+        <button class="menu-toggle" id="mobile-menu-btn" aria-label="Toggle mobile menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav" id="mobile-nav-drawer">
+    <nav class="mobile-nav-menu">
+      <a href="#products" class="mobile-nav-link" id="mob-link-products">Products</a>
+      <a href="#features" class="mobile-nav-link" id="mob-link-features">Features</a>
+      <a href="#about" class="mobile-nav-link" id="mob-link-about">About</a>
+      <a href="#faq" class="mobile-nav-link" id="mob-link-faq">FAQ</a>
+    </nav>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero-section">
+      <div class="hero-container">
+        <div class="hero-text-content">
+          <div class="hero-badge" id="hero-announcement-badge">NEXT-GEN WEARABLES AVAILABLE NOW</div>
+          <h1 class="hero-title">
+            Sound That <span class="animate-text-gradient">Transcends</span> Reality
+          </h1>
+          <p class="hero-subtitle">
+            Experience auditory perfection. Engineered with high-grade carbon fiber frames, personalized active noise cancellation, and a battery life that outlasts the week.
+          </p>
+          <div class="hero-actions">
+            <a href="#products" class="btn btn-primary border-sweep" id="hero-cta-shop">
+              <span>Explore Collection</span>
+            </a>
+            <a href="#about" class="btn btn-secondary" id="hero-cta-learn">
+              <span>Learn More</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero 3D Interactive Card Showcase -->
+        <div class="hero-visual">
+          <div class="tilt-card-wrapper">
+            <div class="tilt-card hero-main-card" id="hero-interactive-card">
+              <div class="tilt-card-glow"></div>
+              <div class="tilt-card-content">
+                <div class="showcase-tag">Featured Release</div>
+                <img src="assets/headphones.png" alt="Veloce X1 Headphones" class="hero-product-img floating-3d" id="hero-featured-image">
+                <div class="hero-product-meta">
+                  <h3>Veloce X1 Pro</h3>
+                  <p class="price-tag">$299.00</p>
+                </div>
+                <button class="btn btn-add-to-cart-featured add-to-cart-trigger" data-id="headphones" data-name="Veloce X1 Pro" data-price="299.00" data-image="assets/headphones.png" id="btn-add-featured">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <div class="section-header">
+        <h2 class="section-title">Built For The Future</h2>
+        <p class="section-subtitle">Meticulously refined details that make a quantum leap in user experience.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="tilt-card-wrapper">
+          <div class="tilt-card feature-card" id="feature-card-1">
+            <div class="tilt-card-glow"></div>
+            <div class="tilt-card-content">
+              <div class="feature-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+              </div>
+              <h3>Ultra-Fast Charge</h3>
+              <p>Get up to 12 hours of uninterrupted playback time with just a 10-minute charge on standard USB-C.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tilt-card-wrapper">
+          <div class="tilt-card feature-card" id="feature-card-2">
+            <div class="tilt-card-glow"></div>
+            <div class="tilt-card-content">
+              <div class="feature-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <h3>Titanium Casing</h3>
+              <p>Lightweight shell engineered with high-density aerospace metals, ensuring life-long durability.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tilt-card-wrapper">
+          <div class="tilt-card feature-card" id="feature-card-3">
+            <div class="tilt-card-glow"></div>
+            <div class="tilt-card-content">
+              <div class="feature-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                </svg>
+              </div>
+              <h3>Spatial Immersion</h3>
+              <p>Interactive head tracking maps sound fields dynamically, locking you in a highly detailed 3D space.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Grid Section -->
+    <section class="products" id="products">
+      <div class="section-header">
+        <h2 class="section-title">The Wearable Ecosystem</h2>
+        <p class="section-subtitle">Harmonized tech hardware designed to work together, perfectly.</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Product Card 1 -->
+        <div class="tilt-card-wrapper">
+          <div class="tilt-card product-card" id="product-card-headphones">
+            <div class="tilt-card-glow"></div>
+            <div class="tilt-card-content">
+              <div class="product-img-wrapper">
+                <img src="assets/headphones.png" alt="Veloce X1 Pro Over-Ear Headphones" class="product-img" id="img-headphones">
+              </div>
+              <div class="product-details">
+                <h3>Veloce X1 Pro</h3>
+                <p class="product-desc">Aerospace carbon fiber frame, adaptive active noise cancellation.</p>
+                <div class="product-footer">
+                  <span class="product-price">$299.00</span>
+                  <button class="btn btn-add add-to-cart-trigger" data-id="headphones" data-name="Veloce X1 Pro" data-price="299.00" data-image="assets/headphones.png" id="btn-add-headphones">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="tilt-card-wrapper">
+          <div class="tilt-card product-card" id="product-card-watch">
+            <div class="tilt-card-glow"></div>
+            <div class="tilt-card-content">
+              <div class="product-img-wrapper">
+                <img src="assets/smartwatch.png" alt="Chronos Matte Titanium Smartwatch" class="product-img" id="img-smartwatch">
+              </div>
+              <div class="product-details">
+                <h3>Chronos Watch</h3>
+                <p class="product-desc">Titanium case, cyber telemetry display, 14-day battery life.</p>
+                <div class="product-footer">
+                  <span class="product-price">$349.00</span>
+                  <button class="btn btn-add add-to-cart-trigger" data-id="smartwatch" data-name="Chronos Watch" data-price="349.00" data-image="assets/smartwatch.png" id="btn-add-smartwatch">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="tilt-card-wrapper">
+          <div class="tilt-card product-card" id="product-card-earbuds">
+            <div class="tilt-card-glow"></div>
+            <div class="tilt-card-content">
+              <div class="product-img-wrapper">
+                <img src="assets/earbuds.png" alt="Aura Wireless Glow Earbuds" class="product-img" id="img-earbuds">
+              </div>
+              <div class="product-details">
+                <h3>Aura Earbuds</h3>
+                <p class="product-desc">Gloss black, charging case, dual driver high-fidelity audio.</p>
+                <div class="product-footer">
+                  <span class="product-price">$189.00</span>
+                  <button class="btn btn-add add-to-cart-trigger" data-id="earbuds" data-name="Aura Earbuds" data-price="189.00" data-image="assets/earbuds.png" id="btn-add-earbuds">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed About/Vision Section -->
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <span class="about-tag">OUR VISION</span>
+          <h2>Redefining Human Interface</h2>
+          <p>We believe technology should seamlessly augment human expression. Our designs feature brutalist titanium edges with flowing ambient light rings, marrying structural integrity with software elegance.</p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">40h</span>
+              <span class="stat-label">Battery Playback</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">99.8%</span>
+              <span class="stat-label">ANC Isolation</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">0.02s</span>
+              <span class="stat-label">Bluetooth Latency</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="mesh-visual-glow"></div>
+          <div class="about-quote-box">
+            <p class="quote">"An absolute triumph of industrial design. Veloce has created a collection that feels more like digital jewelry than consumer tech."</p>
+            <div class="quote-author">
+              <span class="author-name">Marcus Vance</span>
+              <span class="author-title">Editor, Futura Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+      <div class="section-header">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Everything you need to know about ordering and shipping.</p>
+      </div>
+
+      <div class="faq-container">
+        <div class="faq-item" id="faq-item-1">
+          <button class="faq-question" id="faq-btn-1">
+            <span>What shipping options are available?</span>
+            <span class="faq-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>We offer standard worldwide shipping (5-7 business days) and priority express delivery (1-3 business days) with end-to-end telemetry tracking.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-item-2">
+          <button class="faq-question" id="faq-btn-2">
+            <span>What is the return policy?</span>
+            <span class="faq-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>We provide a 30-day trial period. If you're not completely satisfied with your audio experience, return it in its original packaging for a full refund.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-item-3">
+          <button class="faq-question" id="faq-btn-3">
+            <span>How does the ambient lighting system work?</span>
+            <span class="faq-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>Luminous indicator rings synchronize with your notifications and playback patterns. You can customize glow modes, hues, and brightness levels via the Veloce software suite.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Sliding Shopping Cart Drawer -->
+  <div class="cart-drawer" id="cart-drawer-container">
+    <div class="cart-drawer-header">
+      <h2>Shopping Cart</h2>
+      <button class="cart-close-btn" id="cart-close-btn" aria-label="Close cart">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    
+    <div class="cart-drawer-body" id="cart-items-wrapper">
+      <!-- Dynamic Cart Items injected here -->
+      <div class="cart-empty-state" id="cart-empty-message">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        <p>Your cart is empty</p>
+      </div>
+    </div>
+
+    <div class="cart-drawer-footer">
+      <div class="cart-summary">
+        <span class="summary-label">Subtotal</span>
+        <span class="summary-value" id="cart-subtotal-val">$0.00</span>
+      </div>
+      <button class="btn btn-primary checkout-btn" id="cart-checkout-btn">Proceed to Checkout</button>
+    </div>
+  </div>
+  
+  <!-- Backdrop overlay for Cart & Mobile menu -->
+  <div class="ui-backdrop" id="ui-backdrop-overlay"></div>
+
+  <!-- Toast Alert Notifications -->
+  <div class="toast-container" id="toast-notifications-container"></div>
+
+  <!-- Footer -->
+  <footer class="footer-section" id="main-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="#" class="footer-logo">VELOCE</a>
+        <p>Designing premium cybernetic acoustics and daily wearables for standard human integration.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="#products">Products</a>
+          <a href="#features">Features</a>
+          <a href="#about">About</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="#faq">FAQ</a>
+          <a href="#">Security</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>Subscribe to receive telemetry updates and release alerts.</p>
+          <form class="newsletter-form" id="newsletter-subscription-form">
+            <input type="email" placeholder="Enter your email" required id="newsletter-email-input">
+            <button type="submit" class="btn btn-primary newsletter-submit" id="newsletter-submit-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Veloce Inc. All systems green.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
