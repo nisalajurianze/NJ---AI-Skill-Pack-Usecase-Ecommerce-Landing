@@ -2,9 +2,6 @@
 
 <<<<<<< HEAD
 > 🚀 **Live Demo:** [https://nj-ai-skill-pack-usecase-ecommerce.vercel.app](https://nj-ai-skill-pack-usecase-ecommerce.vercel.app)
-=======
-> 🚀 **Live Demo:** [https://your-project-name.vercel.app]([https://your-project-name.vercel.app](https://nj-ai-skill-pack-usecase-ecommerce.vercel.app/))
->>>>>>> c384bee18be19b59f08889e775e12227e7635716
 
 Veloce Tech is a futuristic, motion-rich e-commerce landing page built using vanilla web technologies. It features high-fidelity 3D interactive assets, cursor-following illumination grids, custom gradient animations, and a client-side shopping cart system.
 
