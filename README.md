@@ -28,6 +28,19 @@ Using advanced agentic developer skills, this prompt was expanded into a premium
 
 ---
 
+## 📸 Screenshots
+
+### Product Design Showcase
+![Product Design Showcase](./docs/View.png)
+
+### Initial Page Load State
+![Initial Landing State](./docs/screenshot-initial.png)
+
+### Interactive Shopping Cart Drawer
+![Shopping Cart State](./docs/screenshot-cart.png)
+
+---
+
 ## 🚀 How the Custom Developer Skill Pack Was Used
 This landing page was planned, designed, coded, and verified using a collection of custom agentic developer skills installed in this workspace:
 
@@ -41,12 +54,36 @@ This landing page was planned, designed, coded, and verified using a collection 
 ---
 
 ## 📦 Deployment on Vercel
-This project is configured with a `vercel.json` file for routing. To deploy:
-1. Install the Vercel CLI:
-   ```bash
-   npm install -g vercel
-   ```
-2. Run the deployment command from the project root:
-   ```bash
-   vercel
-   ```
+This project is configured with a `vercel.json` file for routing. Follow these step-by-step instructions to deploy:
+
+### Step 1: Install Vercel CLI
+If not already installed, run:
+```bash
+npm install -g vercel
+```
+
+### Step 2: Login to Vercel
+Authenticate with your account:
+```bash
+vercel login
+```
+
+### Step 3: Run Deploy Command
+Start the deployment setup:
+```bash
+vercel
+```
+
+**Answer CLI interactive setup prompts:**
+1. `Set up and deploy?` → Type `y` (yes) and press Enter.
+2. `Which scope?` → Select your personal account or team and press Enter.
+3. `Link to existing project?` → Type `N` (no) to create a new project.
+4. `What’s your project’s name?` → Press Enter to accept default (`ecommerce-landing`) or enter custom name.
+5. `In which directory is your code located?` → Press Enter to select current directory (`./`).
+6. `Want to modify settings?` → Type `N` (no). Vercel will auto-detect settings and apply our `vercel.json` routing configurations.
+
+### Step 4: Deploy to Production
+To make the site live on your main URL:
+```bash
+vercel --prod
+```

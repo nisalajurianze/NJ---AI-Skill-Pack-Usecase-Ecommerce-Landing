@@ -5,11 +5,11 @@ A complete breakdown of the premium e-commerce landing page project: directory s
 ---
 
 ## 1. Project Directory Structure
-All project assets and source code are located in the scratch directory:
-- **Root Directory**: `C:\Users\nisal\.gemini\antigravity\scratch\ecommerce-landing\`
-  - [index.html](file:///C:/Users/nisal/.gemini/antigravity/scratch/ecommerce-landing/index.html) — Contains structured HTML5 elements, navigation menus, product cards, FAQ section, cart drawer, and interactive badges.
-  - [style.css](file:///C:/Users/nisal/.gemini/antigravity/scratch/ecommerce-landing/style.css) — Implements color themes, mesh gradients, cursor spotlight masks, conic-gradient borders, and custom media queries.
-  - [app.js](file:///C:/Users/nisal/.gemini/antigravity/scratch/ecommerce-landing/app.js) — Houses state logic, cursor coordinate math, window handlers, drawer actions, accordion switches, and notification alerts.
+All project assets and source code are located in the project directory:
+- **Root Directory**: `D:\Projects\NJ - AI Skill Pack Usecase-Ecommerce-Landing\`
+  - [index.html](file:///D:/Projects/NJ%20-%20AI%20Skill%20Pack%20Usecase-Ecommerce-Landing/index.html) — Contains structured HTML5 elements, navigation menus, product cards, FAQ section, cart drawer, and interactive badges.
+  - [style.css](file:///D:/Projects/NJ%20-%20AI%20Skill%20Pack%20Usecase-Ecommerce-Landing/style.css) — Implements color themes, mesh gradients, cursor spotlight masks, conic-gradient borders, and custom media queries.
+  - [app.js](file:///D:/Projects/NJ%20-%20AI%20Skill%20Pack%20Usecase-Ecommerce-Landing/app.js) — Houses state logic, cursor coordinate math, window handlers, drawer actions, accordion switches, and notification alerts.
   - **Assets**: `/assets/`
     - `headphones.png` — Featured product image (luminous neon purple headphones).
     - `smartwatch.png` — Smart watch image (glassmorphic cyber telemetry watch).
