@@ -34,14 +34,9 @@ Using advanced agentic developer skills, this prompt was expanded into a premium
 ### Product Design Showcase
 ![Product Design Showcase](./docs/View.png)
 
-### Initial Page Load State
-![Initial Landing State](./docs/screenshot-initial.png)
-
 ### Product Ecosystem Showcase
 ![Product Ecosystem Showcase](./docs/screenshot-ecosystem.png)
 
-### Interactive Shopping Cart Drawer
-![Shopping Cart State](./docs/screenshot-cart.png)
 
 ---
 
